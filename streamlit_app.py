@@ -1,3 +1,5 @@
+import os
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
 import streamlit as st
 import cv2
